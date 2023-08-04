@@ -1,0 +1,25 @@
+{
+  "name": "vikram_proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "API": "node cypress/e2e/APIcollections/APIRunner.js",
+    "open": "npx cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.4",
+    "cypress": "^12.17.3"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "newman": "^5.3.2",
+    "newman-reporter-htmlextra": "^1.22.11",
+    "path": "^0.12.7",
+    "qs": "^6.11.2",
+    "request": "^2.88.2"
+  }
+}

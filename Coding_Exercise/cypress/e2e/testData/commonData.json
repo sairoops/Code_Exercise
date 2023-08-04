@@ -1,0 +1,5 @@
+{
+"longWait":3000,
+"minWait" :1000,
+"maxWait":5000
+}
